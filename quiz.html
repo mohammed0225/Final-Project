@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Islamic Quiz</title>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <p1> ISLAMIC QUIZ</p1>
+  <div class="go-back">
+    <a href="index.html"> <button id="go-back">BACK TO HOMEPAGE</button> </a>
+  </div>
+
+  <div class="start-screen">
+    <button id="start-button">START QUIZ</button>
+  </div>
+  <div id="display-container">
+    <div class="header">
+      <div class="number-of-count">
+        <span class="number-of-question">1 of 10 questions</span>
+      </div>
+      <div class="timer-div">
+        <img src="https://cdn.icon-icons.com/icons2/1904/PNG/512/timer_121243.png" alt="Timer" width="30" height="30" />
+        <span class="time-left">10s</span>
+      </div>
+    </div>
+    <div id="container">
+      <!-- questions and options will be displayed here -->
+    </div>
+    <button id="next-button">Next Question</button>
+  </div>
+
+  <div class="score-container hide">
+    <div id="user-score">Demo Score</div>
+    <button id="restart">Restart</button>
+  </div>
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+
+</html>
